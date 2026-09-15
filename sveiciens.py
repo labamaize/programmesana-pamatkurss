@@ -1,1 +1,1 @@
-print("Es gribu gulēt!")
+print("Es gribu gulēt...")
