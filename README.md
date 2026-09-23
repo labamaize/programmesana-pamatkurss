@@ -1,6 +1,8 @@
-# programmesana-pamatkurss
-# Projekta struktūra
+# Programmēšana-pamatkurss
+Autors: **labamaize**
+## Kā palaist
+- Caur savu termināli
+- Slepena otrā opcija
 
-uzdevumi - diena1, sveiciens
-dati - noslepums
-.gitignore - ļauj ignorēt atsevišķus failus
+## Licence
+Ar MIT ir jānorāda oriģinālais veidotājs, bet kodu var brīvi izmantot.
