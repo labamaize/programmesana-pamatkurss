@@ -1,6 +1,7 @@
 apaksa = 1
 augsa = 100
 gājieni = 0
+opcijas = ['P', 'M', 'L']
 
 while True:
     minejums = (apaksa + augsa) // 2
@@ -17,9 +18,8 @@ while True:
     if atbilde == "M":
         augsa = minejums - 1
         minejums = (apaksa + augsa) // 2
-    else:
-        print("Tā nav opcija!")
-    
+    if atbilde not in opcijas:
+        print("Tās nav opcijas! Mini L/M/P!")
     if apaksa > augsa:
         print("Tavi apgalvojumi nesakrīt! Ja negribi sadarboties, es beidzu spēli!")
         break
